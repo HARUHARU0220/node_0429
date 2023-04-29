@@ -18,4 +18,4 @@ app.use("/order",orderRouter)
 
 
 const port = 8080
-app.listen(port, console.log("server start"))
+app.listen(port, console.log(`server started at ${port}`))
